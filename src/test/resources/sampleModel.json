@@ -1,0 +1,24 @@
+{
+  "type":"object",
+  "patternProperties":{
+    "^S_":{"type":"string"},
+    "^N_":{"type":"number"}
+  },
+  "properties":{
+    "name":{"type" : "string"},
+    "reign":{"type":"string", 
+            "enum":["archaea","bacteria","protozoa","chromista","plantae","fungi","animalia"]},
+    "bionominal_name":{"type" : "string", "pattern":"^[A-Z],[0-9]*$"}
+  },
+  "required":["name"],
+  "dependencies":{"bionominal_name":["reign"],
+                  "reign":{
+                    "properties":{"S_classification":{"type":"string"}
+                    },
+                    "required":["S_classification"]
+                  }
+  },
+  "minProperties":2,
+  "maxProperties":10,
+  "additionalProperties":{"type":"string"}
+}

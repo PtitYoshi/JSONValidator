@@ -1,0 +1,1507 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "owl:Class",
+    "unionOf" : {
+      "@list" : [ "_:b229", "_:b291", "_:b161" ]
+    }
+  }, {
+    "@id" : "_:b101",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 3,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b103",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 2,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b104",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : true,
+    "onProperty" : "BoardGame:IsCompetitive"
+  }, {
+    "@id" : "_:b107",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b168", "_:b84" ]
+    }
+  }, {
+    "@id" : "_:b109",
+    "@type" : "owl:Class",
+    "unionOf" : {
+      "@list" : [ "_:b319", "_:b215", "_:b310", "_:b199", "_:b88" ]
+    }
+  }, {
+    "@id" : "_:b11",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 1,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b111",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b189",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b114",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b281" ]
+    }
+  }, {
+    "@id" : "_:b116",
+    "@type" : "owl:Restriction",
+    "minQualifiedCardinality" : "1",
+    "onDataRange" : "xsd:boolean",
+    "onProperty" : "BoardGame:CategorizeProperty"
+  }, {
+    "@id" : "_:b118",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b9",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b121",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b11", "_:b285" ]
+    }
+  }, {
+    "@id" : "_:b122",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b287" ]
+    }
+  }, {
+    "@id" : "_:b123",
+    "xsd:maxInclusive" : 6
+  }, {
+    "@id" : "_:b126",
+    "xsd:minInclusive" : 2
+  }, {
+    "@id" : "_:b128",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b25",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b129",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b169" ]
+    }
+  }, {
+    "@id" : "_:b133",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : true,
+    "onProperty" : "BoardGame:UseDice"
+  }, {
+    "@id" : "_:b134",
+    "xsd:minInclusive" : 4
+  }, {
+    "@id" : "_:b135",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b41" ]
+    }
+  }, {
+    "@id" : "_:b138",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b43",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b14",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b185" ]
+    }
+  }, {
+    "@id" : "_:b141",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 4,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b142",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b249" ]
+    }
+  }, {
+    "@id" : "_:b143",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b309", "_:b206" ]
+    }
+  }, {
+    "@id" : "_:b146",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b251" ]
+    }
+  }, {
+    "@id" : "_:b147",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 1,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b148",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b299" ]
+    }
+  }, {
+    "@id" : "_:b149",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b60" ]
+    }
+  }, {
+    "@id" : "_:b153",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 2,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b155",
+    "@type" : "owl:Restriction",
+    "minQualifiedCardinality" : "1",
+    "onClass" : "BoardGame:Stand-Alone",
+    "onProperty" : "BoardGame:ExpansionFor"
+  }, {
+    "@id" : "_:b161",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 3,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b163",
+    "@type" : "owl:Class",
+    "unionOf" : {
+      "@list" : [ "_:b74", "_:b103" ]
+    }
+  }, {
+    "@id" : "_:b164",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b92" ]
+    }
+  }, {
+    "@id" : "_:b165",
+    "xsd:minInclusive" : 3
+  }, {
+    "@id" : "_:b168",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 3,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b169",
+    "xsd:minInclusive" : 1
+  }, {
+    "@id" : "_:b171",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b86", "_:b95" ]
+    }
+  }, {
+    "@id" : "_:b174",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 2,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b175",
+    "xsd:minExclusive" : 6
+  }, {
+    "@id" : "_:b176",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b28" ]
+    }
+  }, {
+    "@id" : "_:b18",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 4,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b181",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b313" ]
+    }
+  }, {
+    "@id" : "_:b182",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b99",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b183",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b101", "_:b315" ]
+    }
+  }, {
+    "@id" : "_:b185",
+    "@type" : "owl:Class",
+    "unionOf" : {
+      "@list" : [ "_:b104", "_:b273" ]
+    }
+  }, {
+    "@id" : "_:b189",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b278" ]
+    }
+  }, {
+    "@id" : "_:b19",
+    "@type" : "owl:Restriction",
+    "onProperty" : "BoardGame:Stand-AloneFor",
+    "someValuesFrom" : "BoardGame:Extension"
+  }, {
+    "@id" : "_:b191",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b4", "_:b280" ]
+    }
+  }, {
+    "@id" : "_:b195",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : true,
+    "onProperty" : "BoardGame:UseFigurine"
+  }, {
+    "@id" : "_:b197",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b0" ]
+    }
+  }, {
+    "@id" : "_:b199",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b18", "_:b288" ]
+    }
+  }, {
+    "@id" : "_:b20",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b241", "_:b81" ]
+    }
+  }, {
+    "@id" : "_:b200",
+    "xsd:minInclusive" : 1
+  }, {
+    "@id" : "_:b201",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b19" ]
+    }
+  }, {
+    "@id" : "_:b202",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b68" ]
+    }
+  }, {
+    "@id" : "_:b205",
+    "@type" : "owl:Class",
+    "unionOf" : {
+      "@list" : [ "_:b57", "_:b226", "_:b38", "_:b276", "_:b20", "_:b267" ]
+    }
+  }, {
+    "@id" : "_:b206",
+    "xsd:maxInclusive" : 99
+  }, {
+    "@id" : "_:b207",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b133" ]
+    }
+  }, {
+    "@id" : "_:b209",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b302" ]
+    }
+  }, {
+    "@id" : "_:b210",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b27" ]
+    }
+  }, {
+    "@id" : "_:b211",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b30" ]
+    }
+  }, {
+    "@id" : "_:b212",
+    "xsd:minInclusive" : 2
+  }, {
+    "@id" : "_:b215",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b33", "_:b294" ]
+    }
+  }, {
+    "@id" : "_:b218",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b135",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b219",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b42" ]
+    }
+  }, {
+    "@id" : "_:b22",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b109" ]
+    }
+  }, {
+    "@id" : "_:b222",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 1,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b223",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 1,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b224",
+    "inverseOf" : "BoardGame:ExpansionFor"
+  }, {
+    "@id" : "_:b225",
+    "xsd:minInclusive" : 4
+  }, {
+    "@id" : "_:b226",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b153", "_:b65" ]
+    }
+  }, {
+    "@id" : "_:b227",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 2,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b229",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b147", "_:b269" ]
+    }
+  }, {
+    "@id" : "_:b230",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b237" ]
+    }
+  }, {
+    "@id" : "_:b232",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b149",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b234",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "xsd:integer",
+    "onProperty" : "BoardGame:AgeMin",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b235",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b211",
+    "onProperty" : "BoardGame:PlayersMin",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b236",
+    "inverseOf" : "BoardGame:Stand-AloneFor"
+  }, {
+    "@id" : "_:b237",
+    "xsd:minInclusive" : 6
+  }, {
+    "@id" : "_:b238",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b76" ]
+    }
+  }, {
+    "@id" : "_:b24",
+    "xsd:minInclusive" : 1
+  }, {
+    "@id" : "_:b240",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b155" ]
+    }
+  }, {
+    "@id" : "_:b241",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 5,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b245",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b93" ]
+    }
+  }, {
+    "@id" : "_:b246",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b94" ]
+    }
+  }, {
+    "@id" : "_:b247",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 3,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b249",
+    "xsd:minInclusive" : 1
+  }, {
+    "@id" : "_:b25",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b290" ]
+    }
+  }, {
+    "@id" : "_:b251",
+    "xsd:minInclusive" : 2
+  }, {
+    "@id" : "_:b253",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 1,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b254",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 6,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b256",
+    "@type" : "owl:Class",
+    "unionOf" : {
+      "@list" : [ "_:b121", "_:b82", "_:b107", "_:b54" ]
+    }
+  }, {
+    "@id" : "_:b257",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b123" ]
+    }
+  }, {
+    "@id" : "_:b260",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : true,
+    "onProperty" : "BoardGame:IsStrategy"
+  }, {
+    "@id" : "_:b264",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : true,
+    "onProperty" : "BoardGame:UseCard"
+  }, {
+    "@id" : "_:b265",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 4,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b267",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 6,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b269",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b210",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b27",
+    "xsd:minInclusive" : 2
+  }, {
+    "@id" : "_:b273",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b219",
+    "onProperty" : "BoardGame:AverageTime",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b276",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b141", "_:b45" ]
+    }
+  }, {
+    "@id" : "_:b278",
+    "xsd:minInclusive" : 5
+  }, {
+    "@id" : "_:b28",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b29",
+    "onProperty" : "BoardGame:AgeMin",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b280",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b230",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b281",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 1,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b282",
+    "xsd:minInclusive" : 1
+  }, {
+    "@id" : "_:b285",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b286",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b286",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b165" ]
+    }
+  }, {
+    "@id" : "_:b287",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : true,
+    "onProperty" : "BoardGame:UseBoard"
+  }, {
+    "@id" : "_:b288",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b238",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b29",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b175" ]
+    }
+  }, {
+    "@id" : "_:b290",
+    "xsd:minInclusive" : 3
+  }, {
+    "@id" : "_:b291",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b174", "_:b182" ]
+    }
+  }, {
+    "@id" : "_:b293",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b163" ]
+    }
+  }, {
+    "@id" : "_:b294",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b245",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b295",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b260" ]
+    }
+  }, {
+    "@id" : "_:b296",
+    "xsd:minInclusive" : 5
+  }, {
+    "@id" : "_:b299",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "xsd:integer",
+    "onProperty" : "BoardGame:PlayersProperty",
+    "qualifiedCardinality" : "2"
+  }, {
+    "@id" : "_:b30",
+    "xsd:minInclusive" : 7
+  }, {
+    "@id" : "_:b302",
+    "@type" : "owl:Class",
+    "unionOf" : {
+      "@list" : [ "_:b191", "_:b71", "_:b183", "_:b51", "_:b171", "_:b72", "_:b235" ]
+    }
+  }, {
+    "@id" : "_:b303",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b205" ]
+    }
+  }, {
+    "@id" : "_:b306",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 2,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b307",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b257",
+    "onProperty" : "BoardGame:AgeMin",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b309",
+    "xsd:minInclusive" : 1
+  }, {
+    "@id" : "_:b310",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b318", "_:b218" ]
+    }
+  }, {
+    "@id" : "_:b313",
+    "xsd:minInclusive" : 3
+  }, {
+    "@id" : "_:b314",
+    "xsd:minInclusive" : 1
+  }, {
+    "@id" : "_:b315",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b316",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b316",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b225" ]
+    }
+  }, {
+    "@id" : "_:b318",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 3,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b319",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b222", "_:b232" ]
+    }
+  }, {
+    "@id" : "_:b322",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b116" ]
+    }
+  }, {
+    "@id" : "_:b33",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 2,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b35",
+    "@type" : "owl:Class",
+    "unionOf" : {
+      "@list" : [ "BoardGame:Extension", "BoardGame:Stand-Alone" ]
+    }
+  }, {
+    "@id" : "_:b36",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b195" ]
+    }
+  }, {
+    "@id" : "_:b38",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b247", "_:b98" ]
+    }
+  }, {
+    "@id" : "_:b4",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 1,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b41",
+    "xsd:minInclusive" : 2
+  }, {
+    "@id" : "_:b42",
+    "xsd:minInclusive" : 60
+  }, {
+    "@id" : "_:b43",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b296" ]
+    }
+  }, {
+    "@id" : "_:b45",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b46",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b46",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b126" ]
+    }
+  }, {
+    "@id" : "_:b48",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b142",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b51",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b265", "_:b128" ]
+    }
+  }, {
+    "@id" : "_:b53",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b146",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b54",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 4,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b57",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b253", "_:b111" ]
+    }
+  }, {
+    "@id" : "_:b60",
+    "xsd:minInclusive" : 4
+  }, {
+    "@id" : "_:b64",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b24" ]
+    }
+  }, {
+    "@id" : "_:b65",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b66",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b66",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b134" ]
+    }
+  }, {
+    "@id" : "_:b68",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : true,
+    "onProperty" : "BoardGame:IsRolePlay"
+  }, {
+    "@id" : "_:b7",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b234" ]
+    }
+  }, {
+    "@id" : "_:b71",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b306", "_:b138" ]
+    }
+  }, {
+    "@id" : "_:b72",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b254", "_:b118" ]
+    }
+  }, {
+    "@id" : "_:b74",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b223", "_:b48" ]
+    }
+  }, {
+    "@id" : "_:b76",
+    "xsd:minInclusive" : 1
+  }, {
+    "@id" : "_:b77",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b256" ]
+    }
+  }, {
+    "@id" : "_:b79",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b307" ]
+    }
+  }, {
+    "@id" : "_:b81",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b164",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b82",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "_:b227", "_:b53" ]
+    }
+  }, {
+    "@id" : "_:b84",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b85",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b85",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b200" ]
+    }
+  }, {
+    "@id" : "_:b86",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 5,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b88",
+    "@type" : "owl:Restriction",
+    "owl:hasValue" : 5,
+    "onProperty" : "BoardGame:PlayersMin"
+  }, {
+    "@id" : "_:b89",
+    "@type" : "owl:Class",
+    "intersectionOf" : {
+      "@list" : [ "BoardGame:Jeu", "_:b264" ]
+    }
+  }, {
+    "@id" : "_:b9",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b282" ]
+    }
+  }, {
+    "@id" : "_:b92",
+    "xsd:minInclusive" : 1
+  }, {
+    "@id" : "_:b93",
+    "xsd:minInclusive" : 3
+  }, {
+    "@id" : "_:b94",
+    "xsd:minInclusive" : 1
+  }, {
+    "@id" : "_:b95",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b96",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b96",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b212" ]
+    }
+  }, {
+    "@id" : "_:b98",
+    "@type" : "owl:Restriction",
+    "onDataRange" : "_:b181",
+    "onProperty" : "BoardGame:NumberPlayersMax",
+    "qualifiedCardinality" : "1"
+  }, {
+    "@id" : "_:b99",
+    "@type" : "rdfs:Datatype",
+    "onDatatype" : "xsd:integer",
+    "withRestrictions" : {
+      "@list" : [ "_:b314" ]
+    }
+  }, {
+    "@id" : "BoardGame",
+    "@type" : "owl:Ontology"
+  }, {
+    "@id" : "BoardGame:AgeMin",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Age minimum requis du jeu",
+    "domain" : "BoardGame:Jeu",
+    "range" : "_:b143",
+    "subPropertyOf" : "owl:topDataProperty"
+  }, {
+    "@id" : "BoardGame:AverageTime",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Temps de jeu moyen (en minutes)",
+    "domain" : "BoardGame:Jeu",
+    "range" : "_:b64",
+    "subPropertyOf" : "owl:topDataProperty"
+  }, {
+    "@id" : "BoardGame:Azul",
+    "@type" : [ "owl:NamedIndividual", "BoardGame:Stand-Alone" ],
+    "BoardGame:AgeMin" : 8,
+    "BoardGame:AverageTime" : 40,
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 2,
+    "BoardGame:PlayersMin" : 2,
+    "BoardGame:UseBoard" : true,
+    "BoardGame:UseCard" : false,
+    "BoardGame:UseDice" : false,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:CategorizeProperty",
+    "@type" : "owl:DatatypeProperty",
+    "comment" : "Propriétés associées aux Categorie de jeux"
+  }, {
+    "@id" : "BoardGame:Dice_Forge",
+    "@type" : [ "BoardGame:Stand-Alone", "owl:NamedIndividual" ],
+    "BoardGame:AgeMin" : 10,
+    "BoardGame:AverageTime" : 45,
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 2,
+    "BoardGame:PlayersMin" : 2,
+    "BoardGame:UseBoard" : true,
+    "BoardGame:UseCard" : true,
+    "BoardGame:UseDice" : true,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:Dixit",
+    "@type" : [ "BoardGame:Stand-Alone", "owl:NamedIndividual" ],
+    "BoardGame:AgeMin" : 8,
+    "BoardGame:AverageTime" : 30,
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 3,
+    "BoardGame:PlayersMin" : 3,
+    "BoardGame:UseBoard" : true,
+    "BoardGame:UseCard" : true,
+    "BoardGame:UseDice" : false,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:Dixit_Quest_2",
+    "@type" : [ "owl:NamedIndividual", "BoardGame:Extension" ],
+    "BoardGame:AgeMin" : 8,
+    "BoardGame:AverageTime" : 30,
+    "ExpansionFor" : "BoardGame:Dixit",
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 3,
+    "BoardGame:PlayersMin" : 3,
+    "BoardGame:UseBoard" : true,
+    "BoardGame:UseCard" : true,
+    "BoardGame:UseDice" : false,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:ExpansionFor",
+    "@type" : [ "owl:FunctionalProperty", "owl:ObjectProperty" ],
+    "domain" : "BoardGame:Extension",
+    "range" : "BoardGame:Stand-Alone",
+    "equivalentProperty" : "_:b236"
+  }, {
+    "@id" : "BoardGame:Extension",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu",
+    "equivalentClass" : "_:b240"
+  }, {
+    "@id" : "BoardGame:IsCompetitive",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Indice determinant si le jeu est un Jeu Competitif (Expert)",
+    "domain" : "BoardGame:Jeu",
+    "range" : "xsd:boolean",
+    "subPropertyOf" : "BoardGame:CategorizeProperty"
+  }, {
+    "@id" : "BoardGame:IsRolePlay",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Indice determinant si le jeu est un Jeu de Role",
+    "domain" : "BoardGame:Jeu",
+    "range" : "xsd:boolean",
+    "subPropertyOf" : "BoardGame:CategorizeProperty"
+  }, {
+    "@id" : "BoardGame:IsStrategy",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Indice determinant si le jeu est un Jeu  de Strategie",
+    "domain" : "BoardGame:Jeu",
+    "range" : "xsd:boolean",
+    "subPropertyOf" : "BoardGame:CategorizeProperty"
+  }, {
+    "@id" : "BoardGame:Jeu",
+    "@type" : "owl:Class",
+    "comment" : "Un Jeu est soit une extension, soit un stand-alone.\nUn Jeu sans extension est par défaut un stand-alone",
+    "disjointUnionOf" : {
+      "@list" : [ "BoardGame:Extension", "BoardGame:Stand-Alone" ]
+    },
+    "equivalentClass" : "_:b35"
+  }, {
+    "@id" : "BoardGame:Jeu_1_Joueur",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Jouable",
+    "equivalentClass" : "_:b114"
+  }, {
+    "@id" : "BoardGame:Jeu_2_Joueurs",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Jouable",
+    "equivalentClass" : "_:b293"
+  }, {
+    "@id" : "BoardGame:Jeu_3_Joueurs",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Jouable",
+    "equivalentClass" : "_:b197"
+  }, {
+    "@id" : "BoardGame:Jeu_4_Joueurs",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Jouable",
+    "equivalentClass" : "_:b77"
+  }, {
+    "@id" : "BoardGame:Jeu_5_Joueurs",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Jouable",
+    "equivalentClass" : "_:b22"
+  }, {
+    "@id" : "BoardGame:Jeu_6_Joueurs",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Jouable",
+    "equivalentClass" : "_:b303"
+  }, {
+    "@id" : "BoardGame:Jeu_7_Joueurs_ou_plus",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Jouable",
+    "equivalentClass" : "_:b209"
+  }, {
+    "@id" : "BoardGame:Jeu_Categorisé",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu",
+    "equivalentClass" : "_:b322"
+  }, {
+    "@id" : "BoardGame:Jeu_Ciblé",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu",
+    "disjointUnionOf" : {
+      "@list" : [ "BoardGame:Jeu_Enfant", "BoardGame:Jeu_Tout_Public" ]
+    },
+    "equivalentClass" : "_:b7"
+  }, {
+    "@id" : "BoardGame:Jeu_Enfant",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Ciblé",
+    "equivalentClass" : "_:b79"
+  }, {
+    "@id" : "BoardGame:Jeu_Expert",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Ciblé",
+    "equivalentClass" : "_:b14"
+  }, {
+    "@id" : "BoardGame:Jeu_Jouable",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu",
+    "equivalentClass" : "_:b148"
+  }, {
+    "@id" : "BoardGame:Jeu_Tout_Public",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Ciblé",
+    "equivalentClass" : "_:b176"
+  }, {
+    "@id" : "BoardGame:Jeu_de_Cartes",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Categorisé",
+    "equivalentClass" : "_:b89"
+  }, {
+    "@id" : "BoardGame:Jeu_de_Dés",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Categorisé",
+    "equivalentClass" : "_:b207"
+  }, {
+    "@id" : "BoardGame:Jeu_de_Figurines",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Categorisé",
+    "equivalentClass" : "_:b36"
+  }, {
+    "@id" : "BoardGame:Jeu_de_Plateau",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Categorisé",
+    "equivalentClass" : "_:b122"
+  }, {
+    "@id" : "BoardGame:Jeu_de_Roles",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Categorisé",
+    "equivalentClass" : "_:b202"
+  }, {
+    "@id" : "BoardGame:Jeu_de_Stratégie",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu_Categorisé",
+    "equivalentClass" : "_:b295"
+  }, {
+    "@id" : "BoardGame:Les_Loups-Garous_de_Thiercelieux",
+    "@type" : [ "owl:NamedIndividual", "BoardGame:Stand-Alone" ],
+    "BoardGame:AgeMin" : 8,
+    "BoardGame:AverageTime" : 30,
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 10,
+    "BoardGame:PlayersMin" : 8,
+    "BoardGame:UseBoard" : false,
+    "BoardGame:UseCard" : true,
+    "BoardGame:UseDice" : false,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:Les_Loups-Garous_de_Thiercelieux_2_:_Nouvelle_Lune",
+    "@type" : [ "owl:NamedIndividual", "BoardGame:Extension" ],
+    "BoardGame:AgeMin" : 8,
+    "BoardGame:AverageTime" : 30,
+    "ExpansionFor" : "BoardGame:Les_Loups-Garous_de_Thiercelieux",
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 10,
+    "BoardGame:PlayersMin" : 8,
+    "BoardGame:UseBoard" : false,
+    "BoardGame:UseCard" : true,
+    "BoardGame:UseDice" : false,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:Les_Loups-Garous_de_Thiercelieux_:_Le_Village",
+    "@type" : [ "owl:NamedIndividual", "BoardGame:Extension" ],
+    "BoardGame:AgeMin" : 8,
+    "BoardGame:AverageTime" : 30,
+    "ExpansionFor" : "BoardGame:Les_Loups-Garous_de_Thiercelieux",
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 10,
+    "BoardGame:PlayersMin" : 8,
+    "BoardGame:UseBoard" : false,
+    "BoardGame:UseCard" : true,
+    "BoardGame:UseDice" : false,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:Nom_d_un_renard",
+    "@type" : [ "BoardGame:Stand-Alone", "owl:NamedIndividual" ],
+    "BoardGame:AgeMin" : 5,
+    "BoardGame:AverageTime" : 20,
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 2,
+    "BoardGame:PlayersMin" : 2,
+    "BoardGame:UseBoard" : true,
+    "BoardGame:UseCard" : false,
+    "BoardGame:UseDice" : false,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:NumberPlayersMax",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Nombre de joueurs maximum pouvant se rajouter à PlayersMin",
+    "domain" : "BoardGame:Jeu",
+    "range" : "_:b129",
+    "subPropertyOf" : "BoardGame:PlayersProperty"
+  }, {
+    "@id" : "BoardGame:PathFinder",
+    "@type" : [ "owl:NamedIndividual", "BoardGame:Stand-Alone" ],
+    "BoardGame:AgeMin" : 12,
+    "BoardGame:AverageTime" : 240,
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : true,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 3,
+    "BoardGame:PlayersMin" : 3,
+    "BoardGame:UseBoard" : false,
+    "BoardGame:UseCard" : false,
+    "BoardGame:UseDice" : false,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:PlayersMin",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Nombre de joueurs minimum",
+    "domain" : "BoardGame:Jeu",
+    "range" : "_:b246",
+    "subPropertyOf" : "BoardGame:PlayersProperty"
+  }, {
+    "@id" : "BoardGame:PlayersProperty",
+    "@type" : "owl:DatatypeProperty",
+    "comment" : "Propriété associé au nombre de joueurs"
+  }, {
+    "@id" : "BoardGame:Risk",
+    "@type" : [ "BoardGame:Stand-Alone", "owl:NamedIndividual" ],
+    "BoardGame:AgeMin" : 10,
+    "BoardGame:AverageTime" : 30,
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : true,
+    "BoardGame:NumberPlayersMax" : 4,
+    "BoardGame:PlayersMin" : 2,
+    "BoardGame:UseBoard" : true,
+    "BoardGame:UseCard" : true,
+    "BoardGame:UseDice" : true,
+    "BoardGame:UseFigurine" : true
+  }, {
+    "@id" : "BoardGame:Stand-Alone",
+    "@type" : "owl:Class",
+    "subClassOf" : "BoardGame:Jeu",
+    "equivalentClass" : "_:b201"
+  }, {
+    "@id" : "BoardGame:Stand-AloneFor",
+    "@type" : "owl:ObjectProperty",
+    "domain" : "BoardGame:Stand-Alone",
+    "range" : "BoardGame:Extension",
+    "equivalentProperty" : "_:b224"
+  }, {
+    "@id" : "BoardGame:Star_Realms",
+    "@type" : [ "owl:NamedIndividual", "BoardGame:Stand-Alone" ],
+    "BoardGame:AgeMin" : 12,
+    "BoardGame:AverageTime" : 20,
+    "BoardGame:IsCompetitive" : true,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 4,
+    "BoardGame:PlayersMin" : 2,
+    "BoardGame:UseBoard" : false,
+    "BoardGame:UseCard" : true,
+    "BoardGame:UseDice" : false,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:Through_the_Ages",
+    "@type" : [ "BoardGame:Stand-Alone", "owl:NamedIndividual" ],
+    "BoardGame:AgeMin" : 12,
+    "BoardGame:AverageTime" : 180,
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : true,
+    "BoardGame:NumberPlayersMax" : 2,
+    "BoardGame:PlayersMin" : 2,
+    "BoardGame:UseBoard" : true,
+    "BoardGame:UseCard" : true,
+    "BoardGame:UseDice" : false,
+    "BoardGame:UseFigurine" : false
+  }, {
+    "@id" : "BoardGame:UseBoard",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Indice determinant si le jeu est un Jeu de Plateau",
+    "domain" : "BoardGame:Jeu",
+    "range" : "xsd:boolean",
+    "subPropertyOf" : "BoardGame:CategorizeProperty"
+  }, {
+    "@id" : "BoardGame:UseCard",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Indice determinant si le jeu est un Jeu de Cartes",
+    "domain" : "BoardGame:Jeu",
+    "range" : "xsd:boolean",
+    "subPropertyOf" : "BoardGame:CategorizeProperty"
+  }, {
+    "@id" : "BoardGame:UseDice",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Indice determinant si le jeu est un Jeu de Dés",
+    "domain" : "BoardGame:Jeu",
+    "range" : "xsd:boolean",
+    "subPropertyOf" : "BoardGame:CategorizeProperty"
+  }, {
+    "@id" : "BoardGame:UseFigurine",
+    "@type" : [ "owl:FunctionalProperty", "owl:DatatypeProperty" ],
+    "comment" : "Indice determinant si le jeu est un Jeu de Figurine",
+    "domain" : "BoardGame:Jeu",
+    "range" : "xsd:boolean",
+    "subPropertyOf" : "BoardGame:CategorizeProperty"
+  }, {
+    "@id" : "BoardGame:Zombicide",
+    "@type" : [ "BoardGame:Stand-Alone", "owl:NamedIndividual" ],
+    "BoardGame:AgeMin" : 13,
+    "BoardGame:AverageTime" : 60,
+    "BoardGame:IsCompetitive" : false,
+    "BoardGame:IsRolePlay" : false,
+    "BoardGame:IsStrategy" : false,
+    "BoardGame:NumberPlayersMax" : 5,
+    "BoardGame:PlayersMin" : 1,
+    "BoardGame:UseBoard" : true,
+    "BoardGame:UseCard" : true,
+    "BoardGame:UseDice" : true,
+    "BoardGame:UseFigurine" : true
+  } ],
+  "@context" : {
+    "unionOf" : {
+      "@id" : "http://www.w3.org/2002/07/owl#unionOf",
+      "@type" : "@id"
+    },
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type" : "@id"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+      "@type" : "@id"
+    },
+    "intersectionOf" : {
+      "@id" : "http://www.w3.org/2002/07/owl#intersectionOf",
+      "@type" : "@id"
+    },
+    "withRestrictions" : {
+      "@id" : "http://www.w3.org/2002/07/owl#withRestrictions",
+      "@type" : "@id"
+    },
+    "onDatatype" : {
+      "@id" : "http://www.w3.org/2002/07/owl#onDatatype",
+      "@type" : "@id"
+    },
+    "hasValue" : {
+      "@id" : "http://www.w3.org/2002/07/owl#hasValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "onProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#onProperty",
+      "@type" : "@id"
+    },
+    "someValuesFrom" : {
+      "@id" : "http://www.w3.org/2002/07/owl#someValuesFrom",
+      "@type" : "@id"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "equivalentClass" : {
+      "@id" : "http://www.w3.org/2002/07/owl#equivalentClass",
+      "@type" : "@id"
+    },
+    "minInclusive" : {
+      "@id" : "http://www.w3.org/2001/XMLSchema#minInclusive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "onDataRange" : {
+      "@id" : "http://www.w3.org/2002/07/owl#onDataRange",
+      "@type" : "@id"
+    },
+    "qualifiedCardinality" : {
+      "@id" : "http://www.w3.org/2002/07/owl#qualifiedCardinality",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "comment" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "disjointUnionOf" : {
+      "@id" : "http://www.w3.org/2002/07/owl#disjointUnionOf",
+      "@type" : "@id"
+    },
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "domain" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type" : "@id"
+    },
+    "subPropertyOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+      "@type" : "@id"
+    },
+    "IsCompetitive" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#IsCompetitive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "AgeMin" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#AgeMin",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "UseFigurine" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#UseFigurine",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "UseDice" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#UseDice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "IsStrategy" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#IsStrategy",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "UseCard" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#UseCard",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "PlayersMin" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#PlayersMin",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "IsRolePlay" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#IsRolePlay",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "AverageTime" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#AverageTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "NumberPlayersMax" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#NumberPlayersMax",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "UseBoard" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#UseBoard",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "maxInclusive" : {
+      "@id" : "http://www.w3.org/2001/XMLSchema#maxInclusive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "ExpansionFor" : {
+      "@id" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#ExpansionFor",
+      "@type" : "@id"
+    },
+    "minExclusive" : {
+      "@id" : "http://www.w3.org/2001/XMLSchema#minExclusive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "minQualifiedCardinality" : {
+      "@id" : "http://www.w3.org/2002/07/owl#minQualifiedCardinality",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "inverseOf" : {
+      "@id" : "http://www.w3.org/2002/07/owl#inverseOf",
+      "@type" : "@id"
+    },
+    "equivalentProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#equivalentProperty",
+      "@type" : "@id"
+    },
+    "onClass" : {
+      "@id" : "http://www.w3.org/2002/07/owl#onClass",
+      "@type" : "@id"
+    },
+    "@base" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/untitled-ontology-4#",
+    "" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/untitled-ontology-4#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "BoardGame" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/BoardGame#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "untitled-ontology-4" : "http://www.semanticweb.org/mvokleber/ontologies/2018/1/untitled-ontology-4#"
+  }
+}
